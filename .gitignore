@@ -1,0 +1,9 @@
+# Packages
+node_modules
+/node_modules
+
+
+# Secret Variables
+.env
+nodemon.json
+/nodemon.json
