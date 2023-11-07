@@ -2,6 +2,7 @@ import express from "express";
 import * as path from 'path';
 import * as fs from 'fs';
 import mongoose from "mongoose";
+mongoose.set("strictQuery", false);
 import bodyParser from "body-parser";
 import { router as placesRouters } from "./routes/places-route.js";
 import { router as usersRoutes } from "./routes/users-route.js";
